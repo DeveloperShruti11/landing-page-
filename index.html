@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="image/journal_15125930.png" /></a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">about</a></li>
+          <li><a href="">categories</a></li>
+          <li><a href="">courses</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">sign in</a></li>
+          <button>sign up</button>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <div id="main-l">
+        <h1>find the right</h1>
+        <h1>online course for</h1>
+        <h1>you</h1>
+        <form action="#" class="search-form">
+                <input type="text" placeholder="Search for courses...">
+                <button type="submit">Search</button>
+            </form>
+      </div>
+      <div id="main-r">
+        <img src="image/251189-P4LL40-255.jpg" alt="" />
+      </div>
+    </div>
+    <div id="find">
+      <div id="write">
+        <h1>what you find</h1>
+        <h1>from our platform</h1>
+      </div>
+      <div id="cards">
+        <div class="card1">
+          <div id="circle">
+            <h1>01</h1>
+          </div>
+          <h5>expert mentor</h5>
+          <img src="image/FIANAL 2.png" alt="" />
+        </div>
+        <div class="card1">
+          <div id="circle">
+            <h1>02</h1>
+          </div>
+          <h5>certification</h5>
+          <img src="image/FINAL 3.png" alt="" />
+        </div>
+        <div class="card1">
+          <div id="circle">
+            <h1>03</h1>
+          </div>
+          <h5>lifetime support</h5>
+          <img src="image/FINAL 4.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <section class="course-overview">
+        <h2>Our Popular Courses</h2>
+        <div class="course-details">
+            <div id="popular"></div>
+                <div id="course-card">
+                    <div class="courseCard">
+                        <img src="image/course1.jpg" alt="Course 1" />
+                        <h2>Course Title</h2>
+                        <h4>$30</h4>
+                        <p>Description of the course.</p>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
+                    <div class="courseCard">
+                        <img src="image/course2.jpg" alt="Course 2" />
+                        <h2>Course Title</h2>
+                        <p>Description of the course.</p>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
+                    <div class="courseCard">
+                        <img src="image/course3.jpg" alt="Course 3" />
+                        <h2>Course Title</h2>
+                        <p>Description of the course.</p>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="instructors-section">
+      <h2>About the Instructors</h2>
+      <div class="slider-wrapper">
+        <button class="prev" onclick="slide(-1)">&#10094;</button>
+        <div class="instructors-container" id="instructorsContainer">
+          <div class="instructor-card">
+            <img
+              src="image/front-close-view-young-female-dark-jacket-pink-background.jpg"
+              alt="Instructor 1"
+            />
+            <h3>John Doe</h3>
+            <p>
+              John Doe has over 10 years of experience in software development
+              and has worked with various programming languages. He holds a
+              Master's degree in Computer Science.
+            </p>
+            <span>Notable Achievements: Author of "Coding Best Practices"</span>
+          </div>
+          <div class="instructor-card">
+            <img
+              src="image/medium-shot-guy-with-raised-eyebrow.jpg"
+              alt="Instructor 2"
+            />
+            <h3>Jane Smith</h3>
+            <p>
+              Jane Smith is a data science expert with a Ph.D. in Artificial
+              Intelligence. She has been teaching data science courses for 5
+              years and has worked on numerous AI projects.
+            </p>
+            <span
+              >Notable Achievements: Data Science Researcher at Tech
+              University</span
+            >
+          </div>
+          <div class="instructor-card">
+            <img
+              src="image/young-pretty-woman-isolated-orange-wall-with-copy-space.jpg"
+              alt="Instructor 3"
+            />
+            <h3>Mike Johnson</h3>
+            <p>
+              Mike Johnson specializes in cybersecurity and has over 15 years of
+              experience in the field. He is a certified ethical hacker and a
+              frequent speaker at cybersecurity conferences.
+            </p>
+            <span>Notable Achievements: Speaker at DEF CON</span>
+          </div>
+          <div class="instructor-card">
+            <img
+              src="image/medium-shot-guy-with-raised-eyebrow.jpg"
+              alt="Instructor 1"
+            />
+            <h3>John Doe</h3>
+            <p>
+              John Doe has over 10 years of experience in software development
+              and has worked with various programming languages. He holds a
+              Master's degree in Computer Science.
+            </p>
+            <span>Notable Achievements: Author of "Coding Best Practices"</span>
+          </div>
+          <!-- Add more instructor cards as needed -->
+        </div>
+        <button class="next" onclick="slide(1)">&#10095;</button>
+      </div>
+    </div>
+    <section class="pricing-information">
+      <h2>Our Pricing Plans</h2>
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Basic Plan</h3>
+            <p>$19/month</p>
+          </div>
+          <ul class="pricing-features">
+            <li>Access to all courses</li>
+            <li>Community support</li>
+            <li>Monthly Q&A sessions</li>
+          </ul>
+          <div class="pricing-footer">
+            <a href="#" class="cta-button">Choose Plan</a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Pro Plan</h3>
+            <p>$49/month</p>
+          </div>
+          <ul class="pricing-features">
+            <li>Everything in Basic</li>
+            <li>1-on-1 Mentorship</li>
+            <li>Exclusive webinars</li>
+          </ul>
+          <div class="pricing-footer">
+            <a href="#" class="cta-button">Choose Plan</a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Premium Plan</h3>
+            <p>$99/month</p>
+          </div>
+          <ul class="pricing-features">
+            <li>Everything in Pro</li>
+            <li>Personalized learning paths</li>
+            <li>Priority support</li>
+          </ul>
+          <div class="pricing-footer">
+            <a href="#" class="cta-button">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+      <div class="guarantee">
+        <p>
+          100% Satisfaction Guarantee. Cancel anytime within the first 30 days
+          for a full refund.
+        </p>
+      </div>
+    </section>
+
+    <section class="additional-resources">
+      <h2>Additional Resources</h2>
+      <div class="resources-collage">
+        <div class="resource-item blog-post">
+          <img src="image/FIANAL 2.png" alt="Blog 1" />
+          <div class="resource-content">
+            <h3>Blog Post 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+              beatae ducimus vel quaerat repudiandae voluptates illum reiciendis
+              tempore, ullam dicta iste fugiat expedita eaque perferendis
+              dolorem ad nobis aliquam unde.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="resource-item blog-post">
+          <img src="image/FINAL 4.png" alt="Blog 2" />
+          <div class="resource-content">
+            <h3>Blog Post 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+              beatae ducimus vel quaerat repudiandae voluptates illum reiciendis
+              tempore, ullam dicta iste fugiat expedita eaque perferendis
+              dolorem ad nobis aliquam unde.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="resource-item ebook">
+          <img src="image/FINAL 3.png" alt="eBook" />
+          <div class="resource-content">
+            <h3>Free eBook</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              tempore natus eius asperiores provident quaerat, suscipit
+              voluptatum mollitia porro nihil eligendi quam amet aut expedita
+              quasi minima velit consectetur consequuntur!
+            </p>
+            <a href="#">Download Now</a>
+          </div>
+        </div>
+        <div class="resource-item webinar">
+          <img src="image/FIANAL 2.png" alt="Webinar" />
+          <div class="resource-content">
+            <h3>Free Webinar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              tempore natus eius asperiores provident quaerat, suscipit
+              voluptatum mollitia porro nihil eligendi quam amet aut expedita
+              quasi minima velit consectetur consequuntur!
+            </p>
+            <a href="#">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials-reviews">
+      <h2>Testimonials and Reviews</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-item">
+          <div class="quote">
+            <p>
+              "This course was a game-changer for me. The content was engaging
+              and the instructors were top-notch!"
+            </p>
+          </div>
+          <div class="rating">
+            <span>★★★★★</span>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="quote">
+            <p>
+              "I gained so much knowledge and confidence. The support from the
+              community was fantastic."
+            </p>
+          </div>
+          <div class="rating">
+            <span>★★★★★</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="enrollment-process">
+      <h2>How to Enroll</h2>
+      <div class="steps-container">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Sign Up</h3>
+            <p>Create an account by providing your basic information.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Select a Course</h3>
+            <p>Browse through our catalog and choose a course.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Make Payment</h3>
+            <p>Complete the payment process using our secure system.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Start Learning</h3>
+            <p>Access your course materials and begin your learning journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta-container">
+        <a href="#" class="cta-button">Enroll Now</a>
+        <a href="#" class="cta-button secondary">Learn More</a>
+      </div>
+    </section>
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="question">What courses are offered?</div>
+          <div class="answer">
+            We offer a wide range of courses across various fields including
+            technology, business, arts, and more.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="question">How do I enroll in a course?</div>
+          <div class="answer">
+            To enroll, simply create an account, select your desired course, and
+            complete the payment process.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="question">What payment methods are accepted?</div>
+          <div class="answer">
+            We accept various payment methods including credit cards, PayPal,
+            and bank transfers.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="question">Is there a refund policy?</div>
+          <div class="answer">
+            Yes, we offer a 30-day money-back guarantee if you are not satisfied
+            with the course.
+          </div>
+        </div>
+      </div>
+      <div class="contact-info">
+        <p>
+          Can't find your answer?
+          <a href="contact.html">Contact our support team</a> for more
+          assistance.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="footer-contact">
+          <p>Contact Us:</p>
+          <p>Email: info@company.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Address: 123 Company St, City, Country</p>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-icon"
+            ></a>
+          <a href="#" class="social-icon"
+            ></a>
+          <a href="#" class="social-icon"
+            ></a>
+          <a href="#" class="social-icon"></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
